@@ -840,10 +840,14 @@ position: absolute;
 top: -170px;
 
 
+
+}
+.col-lg-7{
+    padding-left: 0;
 }
 .col-lg-7 h2{
 
-float: left;
+    float: left;
     font-size: 2rem;
     margin-top: 0;
     font-weight: 500;
@@ -860,9 +864,10 @@ float: left;
     margin-right: 400px;
 }
 .items span{
+    color: rgb(63, 61, 61);
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 20px;
     line-height: 45px;
     font-weight: 300;
@@ -871,7 +876,19 @@ float: left;
      width: 60px;
      margin-left: 20px;
  }
-
+ .items .smooth-corners img{
+    width: 25px;
+    color: #007bec;
+    font-weight: bold;
+ }
+ .items .smooth-corners div{
+     background: #fff;
+     text-align: center;
+     padding-top: 11px;
+     border-radius: 15px;
+     align-items: center;
+     justify-content: center;
+ }
 
 
 
