@@ -911,6 +911,7 @@ top: -170px;
 .col-12-land-free-learn h2{
     font-size: 2rem;
     margin-top: 0;
+    margin-right: 100px;
     margin-bottom: 0.5rem;
     font-weight: 500;
     line-height: 1.2;
@@ -918,13 +919,46 @@ top: -170px;
 }
 .col-12-land-free-learn span{
     margin-bottom: 80px;
+    margin-right: 100px;
     display: block;
     font-size: 20px;
     line-height: 45px;
     font-weight: 300;
 }
+.row-justify-content-center{
+    justify-content: center!important;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-justify-content-center .col{
+    width: 250px;
+    margin: 20px;
+    background: #fff;
+    text-align: center;
+    padding: 75px 0;
+    border-radius: 70px;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+.row-justify-content-center .col:hover{
+    transform: translatey(12px);
+}
+.row-justify-content-center .smooth-corners-skill {
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    font-size: 20px;
+
+}
+.smooth-corners-skill .smooth-corners img{
+    padding: 15px;
+    border-radius: 20px;
+    background: #40a1fc;
+    margin-bottom: 10px;
+}
 
 
+/*  finished section third */
 
 
 
