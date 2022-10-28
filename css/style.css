@@ -961,11 +961,32 @@ top: -170px;
 /*  finished section third */
 
 
+/* start footer */
 
+.container-fluid{
+    position: absolute;
+    top: 2500px;
+}
+.container-fluid .container {
+    padding-bottom: 40px;
+}
+.container-fluid .container .links{
+    margin-left: 100px;
+    padding-left: 40px;
+}
+.container-fluid .container .links a{
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top: -20px;
+}
 
-
-
-
+.container-fluid .container .links img{
+    margin-bottom: -20px;
+    width: 50px;
+}
+.container-fluid .container .bio{
+    margin: 30px;
+}
 
 
 
