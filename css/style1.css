@@ -100,4 +100,11 @@ body{
     padding: 20px;
 }
        
-    
+.container-auth-page .auth-wrapper p{
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(51, 50, 50);
+}
+.container-auth-page .auth-wrapper p a{
+    color: #007bec;
+}
