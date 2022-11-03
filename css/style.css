@@ -16,14 +16,9 @@ body{
     color: var(--bs-dark);
     justify-content: center;
 }
-section{
-
-  
-}
 .header{
     width: 87%;
     padding-left: 30px;
-/* background: red;    */
 }
 nav{
     width: 100%;
@@ -59,18 +54,27 @@ nav .search{
     background: rgb(252, 202, 109);
     
 }
+.search .login:hover{
+    background-color: rgb(243, 192, 98);
+    cursor: pointer;
+}
 .search .login .worod{
     margin-left: 20px;
     text-decoration: none;
     padding-right: 13px;
     color: black;
 }
+
 .search .login .aozweit{
     text-decoration: none;
-    background: orange;
+    background: rgb(253, 185, 60);
     border-radius: 20px;
     padding:  5px 25px 16px;
     color: black;
+}
+.search .login .aozweit:hover{
+    background-color: rgb(252, 166, 7);
+    cursor: pointer;
 }
 .search .srch{
     background: #fff;
@@ -78,10 +82,14 @@ nav .search{
     padding: 13px;
     border-radius: 11px;
     color: gray;
+    font-size: 20px;
+}
+.search .srch:hover{
+    color: lightgray;
 }
 nav .a{
     text-align: center;
-    margin-left: 400px;
+   margin-left: 380px;
 }
 nav ul{
     float: right;
@@ -311,7 +319,9 @@ right: 0;
      transition: transform .7s;
  }
  .header .group-icon .row:hover{
-    transform: translateY(10px); 
+    transform: translateY(15px); 
+    transition: 1.5s;
+
  }
 
 
@@ -358,9 +368,6 @@ right: 0;
      flex-direction: column;
      float: left;
      text-decoration: none;
- }
- .header .group-icon .smooth-corners-skill h3{
-     
  }
 
  .header .group-icon .smooth-corners  .laravel{
@@ -619,9 +626,6 @@ right: 0;
 
 /* end group-icon */
 
-.col-12{
-
-}
 .group-icon .cmb-btn{
    padding: 20px 25px;
    margin-top: 20%;
@@ -942,7 +946,9 @@ top: -170px;
     transition: all ease-in-out .2s;
 }
 .row-justify-content-center .col:hover{
-    transform: translatey(12px);
+    transform: translateY(15px); 
+    transition: 1.5s;
+
 }
 .row-justify-content-center .smooth-corners-skill {
     text-decoration: none;
@@ -965,39 +971,96 @@ top: -170px;
 
 .container-fluid{
     position: absolute;
-    top: 2500px;
+    top: 5300px;
+    width: 100%;
 }
-.container-fluid .container {
-    padding-bottom: 40px;
+.container-fluid .links{
+    width: 100%;
+    margin: 0 0 60px 0;
+    margin-right: 80px;
+    font-size: 20px;
 }
-.container-fluid .container .links{
-    margin-left: 100px;
-    padding-left: 40px;
-}
-.container-fluid .container .links a{
-    text-decoration: none;
-    margin-left: 30px;
-    margin-top: -20px;
-}
-
-.container-fluid .container .links img{
-    margin-bottom: -20px;
+.container-fluid .links a img{
     width: 50px;
+    margin-bottom:  -20px;
 }
-.container-fluid .container .bio{
-    margin: 30px;
+.container-fluid .links a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: rgb(56, 61, 70);
+}
+.container-fluid .links a:hover{
+    color: #007bec;
+}
+.container-fluid .bio{
+    font-size: 20px;
+    margin-right: 80px;
+    line-height: 40px;
+    padding: 10px;
+}
+.container-fluid .bio p{
+    color: gray;
+}
+.container-fluid .bio p a{
+    text-decoration: none;
+    color: #007bec;
+}
+footer .right{
+    margin-right: 80px;
+    padding: 20px 0;
+    font-size: 20px;
+    line-height: 40px;
+}
+footer .right .mb-0-pb-0{
+    color: rgb(56, 61, 70);
+}
+
+footer .right span{
+font-weight: bold;
+padding: 20px 0;
+color: rgb(56, 61, 70);
+}
+
+footer .right span a{
+    color: rgb(56, 61, 70);
+    text-decoration: none;
+}
+footer .right span a:hover{
+    color: #007bec;
+}
+
+footer .right .icon a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(56, 61, 70);
+    font-size: 30px;
+}
+footer .right .icon a:hover{
+color: #007bec;
+}
+
+footer a:hover{
+color: #007bec;
 }
 
 
+footer .left{
+    float: left;
+    display: flex;
+    margin-left: 200px;
 
 
-
-
-
-
-
-
-
+}
+footer .left .smooth-corners{
+    padding: 20px;
+    background: #f6fafe;
+    margin: 15px;
+    border-radius: 20px;
+}
+footer .left .smooth-corners img{
+    width: 50px;
+    color: rgb(56, 61, 70);
+}
 
 
 
