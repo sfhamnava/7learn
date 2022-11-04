@@ -40,7 +40,15 @@ body{
 .container-auth-page .auth-wrapper a{
     text-decoration: none;
     color: #000;
-    font-weight: 300;
+    font-size: 13px;
+    transition: .3s;
+}
+.container-auth-page .auth-wrapper a:hover{
+    color: gray;
+}
+.container-auth-page .auth-wrapper a i{
+    font-size: 11px;
+    padding-left: 6px;
 }
 .container-auth-page .auth-forms {
     width: 100%;
@@ -66,6 +74,10 @@ body{
     outline: none;
     font-size: 15px;
 }
+input{
+    text-align: center;
+}
+
 ::placeholder{
     text-align: center;   
 }
@@ -92,6 +104,12 @@ body{
     font-size: 14px;
     cursor: pointer;
 
+}
+.container-auth-page .auth-forms .enrolment a{
+    color: gray;
+}
+.container-auth-page .auth-forms .enrolment a:hover{
+    color: #007bec;
 }
 .container-auth-page .auth-forms span:hover{
     color: #007bec;
