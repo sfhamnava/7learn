@@ -106,18 +106,29 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-weight: bold;
-    color: rgb(65, 63, 63);
+    color: rgb(55, 58, 70)
+}
+nav ul li a:hover{
+    color: #007bec;
 }
 .header .a ul li .dora{
-    border: 1px solid;
+    border: 1px solid rgb(57, 59, 78);
     padding: 13px;
     border-radius: 16px;
+    transition: .2s;
+}
+.header .a ul li .dora:hover{
+    background: rgb(57, 59, 78);;
+    color: #fff;
 }
 nav .a ul li .dora .fa{
  padding-left: 4px;
 }
 nav .a ul li .d .fa{
     padding-right: 4px;
+}
+nav .a ul li .b{
+
 }
 
 
