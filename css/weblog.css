@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'callibri';
+    src: url('../fonts/calibri.ttf') 
+  }
+  body{
+      font-family: callibri;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.all{
+    width: 100%;
+    height: 300vh;
+    background-color: #eef3f8;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+   
+}
+body{
+    overflow-x: hidden;
+}
+nav .img
+{
+    width: 120px;
+ 
+
+}
+nav .search{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    padding: 5px 10px;
+    
+  
+}
+.search .login{
+    margin: 7px 50px ;
+    
+}
+
+.search .login .worod{
+   padding: 13px 30px 12px 40px;
+   border-radius: 10px;
+    background: #ffe1a8; 
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+.search .login .worod:hover{
+    background-color: #fcd48c;
+}
+
+.search .login .aozweit{
+    text-decoration: none;
+    margin-right: -20px;
+    background: rgb(255, 197, 90);
+    border-radius: 10px;
+   padding: 10px 20px ;
+   position: absolute;
+   top: -0.1px;
+    color: black;
+}
+.search .login .aozweit:hover{
+    background-color: rgb(240, 195, 112);
+    cursor: pointer;
+}
+.search .srch{
+    background: #fff;
+    align-items: center;
+    padding: 13px;
+    border-radius: 11px;
+    color: gray;
+    font-size: 20px;
+}
+.search .srch:hover{
+    color: lightgray;
+}
+nav .a{
+    text-align: center;
+   margin-left: 550px;
+}
+nav ul{
+    float: right;
+    margin-right: 35px;
+    margin-top: 35px;
+    display: block;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(55, 58, 70)
+}
+nav ul li a:hover{
+    color: #007bec;
+}
+nav .a ul li .dora{
+    border: 1px solid #1d2d3d;
+    padding: 13px;
+    border-radius: 16px;
+    transition: .2s;
+}
+nav .a ul li .dora:hover{
+    background: #1d2d3d;
+    color: #fff;
+}
+nav .a ul li .dora .fa{
+ padding-left: 4px;
+}
+nav .a ul li .d .fa{
+    padding-right: 4px;
+}
+
+/* nav finished */
+
+.col-12{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+}
+.col-12 .row{
+    display: flex;
+}
+
+.cmp-article .img img{
+    background-image: linear-gradient(0deg, rgba(29,45,61,.8) 25% , rgba(255, 255 , 255,0) 70%);
+    width: 350px;
+    border-radius: 40px;
+    margin-left: 80px;
+    position: relative;
+
+}
+
+.col-12 .row .col-lg-8{
+   margin-left: 100px 
+    }
+    
+.row .col-lg-8 .blog-header-title{
+    font-size: 45px;
+    color: #1d2d3d;
+    margin-top: 50px;
+}
+.row .col-lg-8 .breadcrumb{
+    display: flex;
+}
+.row .col-lg-8 .breadcrumb li{
+    list-style-type: none;
+    padding: 10px;
+    color: #9da1aa;
+    margin-top: 20px;
+}
+.row .col-lg-8 .breadcrumb li a{
+    text-decoration: none;
+    color: #9da1aa;
+}
+.row .col-lg-8 .breadcrumb li a:hover{
+    color: #007bec;
+}
+
+.shadow{
+    position: absolute;
+    margin-top: -255px;
+    border-radius: 40px;
+    width: 350px;
+    height: 250px;
+    background-image: linear-gradient(0deg, rgba(29,45,61,.8) 25% , rgba(255, 255 , 255,0) 70%); 
+
+}
+.article-info{
+  margin-top: -60px;
+  position: absolute;
+  margin-right: 10px;
+}
+
+.article-info img{
+width: 20px;
+border-radius: 50%;
+}
+.article-info small{
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    
+}
+.article-info small i{
+    font-size: 20px;
+}

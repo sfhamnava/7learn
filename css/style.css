@@ -4,8 +4,13 @@
     text-decoration: rtl;
 
 }
-
+@font-face {
+    font-family: 'callibri';
+    src: url('../fonts/calibri.ttf') 
+  }
+  
 body{
+    font-family: callibri ;
     -webkit-text-size-adjust: 100%;
     max-width: 100vw;
     position: relative;
@@ -44,36 +49,34 @@ nav .search{
   
 }
 .search .login{
-    margin-right: 30px;
-    width: 191px;
-    font-size: 20px;
-    text-align: center;
-    padding-bottom: 15px;
-    padding-top: 5px;
-    border-radius: 20px;
-    background: rgb(252, 202, 109);
+    margin: 7px 50px ;
     
 }
-.search .login:hover{
-    background-color: rgb(243, 192, 98);
-    cursor: pointer;
-}
+
 .search .login .worod{
-    margin-left: 20px;
+   padding: 13px 30px 12px 40px;
+   border-radius: 10px;
+    background: #ffe1a8; 
+    position: relative;
     text-decoration: none;
-    padding-right: 13px;
     color: black;
+}
+.search .login .worod:hover{
+    background-color: #fcd48c;
 }
 
 .search .login .aozweit{
     text-decoration: none;
-    background: rgb(253, 185, 60);
-    border-radius: 20px;
-    padding:  7px 25px 20px;
+    margin-right: -20px;
+    background: rgb(255, 197, 90);
+    border-radius: 10px;
+   padding: 10px 20px ;
+   position: absolute;
+   top: -0.1px;
     color: black;
 }
 .search .login .aozweit:hover{
-    background-color: rgb(252, 166, 7);
+    background-color: rgb(240, 195, 112);
     cursor: pointer;
 }
 .search .srch{
@@ -112,13 +115,13 @@ nav ul li a:hover{
     color: #007bec;
 }
 .header .a ul li .dora{
-    border: 1px solid rgb(57, 59, 78);
+    border: 1px solid #1d2d3d;
     padding: 13px;
     border-radius: 16px;
     transition: .2s;
 }
 .header .a ul li .dora:hover{
-    background: rgb(57, 59, 78);;
+    background: #1d2d3d;
     color: #fff;
 }
 nav .a ul li .dora .fa{
@@ -126,9 +129,6 @@ nav .a ul li .dora .fa{
 }
 nav .a ul li .d .fa{
     padding-right: 4px;
-}
-nav .a ul li .b{
-
 }
 
 
