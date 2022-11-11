@@ -50,7 +50,7 @@ nav .search{
 .search .login .worod{
    padding: 13px 30px 12px 40px;
    border-radius: 10px;
-    background: #ffe1a8; 
+    background: #f4dd9b; 
     position: relative;
     text-decoration: none;
     color: black;
@@ -62,7 +62,7 @@ nav .search{
 .search .login .aozweit{
     text-decoration: none;
     margin-right: -20px;
-    background: rgb(255, 197, 90);
+    background: #f7c737;
     border-radius: 10px;
    padding: 10px 20px ;
    position: absolute;
@@ -70,7 +70,7 @@ nav .search{
     color: black;
 }
 .search .login .aozweit:hover{
-    background-color: rgb(240, 195, 112);
+    background-color: #ffd34f;
     cursor: pointer;
 }
 .search .srch{

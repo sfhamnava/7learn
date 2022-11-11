@@ -16,7 +16,7 @@
 .all{
     width: 100%;
     height: 300vh;
-    background-color: #eef3f8;
+    background-color: #f4f7f7;
 }
 
 
@@ -54,7 +54,7 @@ nav .search{
 .search .login .worod{
    padding: 13px 30px 12px 40px;
    border-radius: 10px;
-    background: #ffe1a8; 
+    background: #f4dd9b; 
     position: relative;
     text-decoration: none;
     color: black;
@@ -66,7 +66,7 @@ nav .search{
 .search .login .aozweit{
     text-decoration: none;
     margin-right: -20px;
-    background: rgb(255, 197, 90);
+    background: #f7c737;
     border-radius: 10px;
    padding: 10px 20px ;
    position: absolute;
@@ -74,7 +74,7 @@ nav .search{
     color: black;
 }
 .search .login .aozweit:hover{
-    background-color: rgb(240, 195, 112);
+    background-color: #ffd34f;
     cursor: pointer;
 }
 .search .srch{
@@ -202,4 +202,55 @@ border-radius: 50%;
 }
 .article-info small i{
     font-size: 20px;
+}
+
+/* finished row header */
+
+
+
+.flex-row-reverse{
+    margin-top: 50px;
+}
+
+.flex-row-reverse .col-lg-8{
+    display: flex;
+    margin-right: 100px;
+}
+ .col-lg-8 .col-lg-4 .sticky-lg-top ul li{
+     padding: 10px 20px;
+     font-size: 20px;
+     color: #657688;
+     background: #f0f1f4;
+     margin-top: 20px;
+     list-style: none;
+     width: 230px;
+     border-radius: 10px;
+     cursor: pointer;
+}
+.col-lg-8 .col-lg-4 .sticky-lg-top ul li:hover{
+    background-color: #e3e4e7;
+}
+.col-lg-8 .col-lg-4 .sticky-lg-top ul .title{
+    color: #007bec;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.col-lg-8 .blog-sc{
+    width: 620px;
+    justify-content: center;
+    margin-right: 100px;
+}
+.col-lg-8 .blog-sc p{
+    font-size: 22px;
+  line-height: 50px;
+  color: #3d4a62;
+}
+
+.col-lg-8 .blog-sc p a{
+    text-decoration: none;
+    color: #007bec;
+}
+.col-lg-8 .blog-sc p strong{
+    font-weight: 560;
 }
